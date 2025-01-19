@@ -1,0 +1,143 @@
+body{
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 90vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.container{
+    margin-top: 10px;
+   width: 600px;
+   padding: 50px;
+    border-radius: 10px;
+    background-color: #130d02;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+
+   
+}
+
+h1{
+    color:  rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+h2{
+
+    color:  rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+    display: none;
+}
+#To-Do_list_form{
+
+    width: 100%;
+    margin-bottom: 50px;
+
+    text-align: center;
+}
+input[type=text]{
+    width: 60%;
+    padding: 20px;
+    outline: none;
+   box-sizing: border-box;
+   border: 2px solid rgba(214, 214, 214, 0.233);
+   border-radius: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 18px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+
+}
+
+input[type=text]:focus{
+    border: 2px solid  rgb(171, 253, 189);
+}
+
+#addbtn{
+
+    border: none;
+    padding: 5px;
+    background-color: rgb(252, 252, 252);
+    color: rgb(16, 250, 67);
+    font-size: 30px;
+    font-weight: bolder;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+#addbtn:hover{
+    background-color:rgb(214, 212, 212);
+    color: rgb(7, 202, 49);
+}
+
+
+.tasks{
+
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    color: #1a1515;
+    border: 2px solid #ebf1ed;
+    font-weight: bold;
+    font-size: 18px;
+    min-height: 70px;
+   
+}
+.task-list{
+
+    display: flex;
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    color: #000000;
+    border: 2px solid #ff2600;
+    font-size: 18px;
+    min-height: 70px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+input[type=checkbox]{
+    margin-right: 10px;
+    width: 4%;
+}
+.sidebtn {
+    padding: 5px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    color: rgb(255, 102, 0);
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+  
+    
+}
+
+
+.deletbtn{
+   margin-left: auto;
+}
+
+
+#task_progress{
+    text-align: center;
+    color:white;
+}
+
+hr{
+    background-color: #24692f;
+    border: none;
+    height: 2px;
+}

@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do list app</title>
+    <link rel="stylesheet" href="styles.css" >
+</head>
+<body>
+    
+
+<div id="tasks"  class="container" >
+     
+    <form id="To-Do_list_form" action="">
+    <h1>To-Do List App  </h1>
+    <input type="text" id="inputData" placeholder="i want to..." name="text" required> 
+    <button id="addbtn">+</button>
+</form>
+
+<!--tasks list -->
+<h2 id="list-title">You Tasks List</h2>
+   <div class="tasks" style="display: none;" >
+    <div  class="task-list"> 
+        <input type="checkbox" id="done"> 
+        <p id="pp"  class="list-content">Do homework  </p> 
+        <button id="deletbtn" class="sidebtn deletbtn">Delete</button>
+        <button id="editbtn" class="sidebtn">Edit</button>
+    
+    </div>
+ 
+</div>
+
+<div style="display: none;">
+<hr>
+<p id="task_progress">Completed:<span id="comp_task"> 0</span></p>
+
+</div>
+
+
+
+
+</body>
+
+<script  src="index.js"></script>
+</html>
